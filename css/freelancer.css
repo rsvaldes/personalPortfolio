@@ -41,14 +41,19 @@ hr.star-primary {
   border-top: solid 5px; }
 
 hr.star-light:after,
-hr.star-primary:after {
+/*hr.star-primary:after {
   font-family: FontAwesome;
   font-size: 2em;
   position: relative;
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005'; }
+  content: '\f005'; }*/
+
+  #summary {
+    text-align: center;
+  }
+
 
 hr.star-light {
   border-color: white; }
@@ -75,7 +80,7 @@ section {
 
 section.success {
   color: white;
-  background: #e5dada; }
+  background: #a19393; }
 
 @media (max-width: 767px) {
   section {
@@ -105,7 +110,7 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #e5dada; }
+  background: #a19393; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -123,7 +128,7 @@ section.success {
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: white; }
   #mainNav .navbar-toggler {
-    font-size: 14px;
+    font-size: 16px;
     padding: 11px;
     text-transform: uppercase;
     color: white;
@@ -131,7 +136,7 @@ section.success {
     #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
       color: white;
       border-color: #18BC9C;
-      background-color: #18BC9C; }
+      background-color: #a19393; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -148,22 +153,22 @@ section.success {
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
-      background: #18BC9C; }
+      background: #a19393; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white;
-        background: #18BC9C; }
+        background: #FFFFFF; }
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px; }
     #mainNav.navbar-shrink .navbar-brand {
-      font-size: 1.5em; } }
+      font-size: 2em; } }
 
 header.masthead {
   padding-top: 100px;
   padding-bottom: 5px;
   text-align: center;
   color: white;
-  background: #18BC9C; }
+  background: #a19393; }
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
@@ -203,7 +208,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgba(24, 188, 156, 0.9); }
+      background: rgba(229, 218, 218, 0.9); }
       #portfolio .portfolio-item .portfolio-link .caption:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .caption .caption-content {
